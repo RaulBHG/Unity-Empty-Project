@@ -1,0 +1,16 @@
+{
+    "name": "TFF.Core.DesignPatterns",
+    "rootNamespace": "TFF.Core.DesignPatterns",
+    "references": [
+        "GUID:980af48498f3e514e9dfe0b765f3f873"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

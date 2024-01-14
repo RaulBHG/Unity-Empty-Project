@@ -1,0 +1,18 @@
+{
+    "name": "TFF.Salvatore.Editor.Tests",
+    "rootNamespace": "TFF.Salvatore",
+    "references": [
+        "GUID:5b8e446d83f775040a7555de4e11e3e5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

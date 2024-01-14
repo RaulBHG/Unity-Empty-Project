@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.tff.salvatore/Editor/SaveLoadSystem/SaveLoadInspector.uss?fileID=7433441132597879392&amp;guid=b8b151439a9c0f644b9ba33fc284c674&amp;type=3#SaveLoadInspector" />
+    <ui:VisualElement name="SuccessLayout" class="layout">
+        <ui:Label text="GlobalData" display-tooltip-when-elided="true" name="GlobalDataLabel" class="areaTitle" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="SnapshotGlobalData" class="snapshotData">
+            <ui:Label text="Label" display-tooltip-when-elided="true" class="parentLabel" />
+            <ui:Label text="Labelawdasddddddddddddddddddddddddddddddddddddddddddddddddddasdasdasd" display-tooltip-when-elided="true" style="flex-wrap: wrap; flex-direction: column; flex-shrink: initial; white-space: normal;" />
+        </ui:ScrollView>
+        <ui:Label text="Game and Scene Data" display-tooltip-when-elided="true" name="GameSceneDataLabel" class="areaTitle" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="SnapshotGameSceneData" class="snapshotData">
+            <ui:Label text="Label" display-tooltip-when-elided="true" class="parentLabel" />
+            <ui:Label text="Labelawdasddddddddddddddddddddddddddddddddddddddddddddddddddasdasdasd" display-tooltip-when-elided="true" style="flex-wrap: wrap; flex-direction: column; flex-shrink: initial; white-space: normal;" />
+        </ui:ScrollView>
+        <ui:VisualElement name="ButtonActions" class="bottomButtons">
+            <ui:VisualElement name="SnapshotColumn">
+                <ui:Button text="Save Snapshot" display-tooltip-when-elided="true" name="SaveSnapshot" class="btn" />
+                <ui:Button text="Load Snapshot" display-tooltip-when-elided="true" name="LoadSnapshot" class="btn" />
+                <ui:Button text="Rm Scene Data" display-tooltip-when-elided="true" name="RemoveSceneData" class="btn" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PersistentColumn">
+                <ui:Button text="Save Game" display-tooltip-when-elided="true" name="SaveGame" class="btn" />
+                <ui:Button text="Load Game" display-tooltip-when-elided="true" name="LoadGame" class="btn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="ErrorLayout" class="layout" style="width: 100%; height: 100%;">
+        <ui:Label text="EXECUTE SCENE AND RELOAD THIS INSPECTOR" display-tooltip-when-elided="true" enable-rich-text="false" name="ErrorLabel" />
+    </ui:VisualElement>
+</ui:UXML>

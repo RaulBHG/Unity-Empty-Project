@@ -1,0 +1,18 @@
+{
+    "name": "TFF.Core.DesignPatterns.Editor",
+    "rootNamespace": "TFF.Core.DesignPatterns",
+    "references": [
+        "GUID:292cce2e1eff06547a5aa7bb2acd0fd6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
