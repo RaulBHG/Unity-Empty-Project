@@ -1,0 +1,6 @@
+[submodule "Packages/com.tff.core"]
+	path = Packages/com.tff.core
+	url = https://github.com/VagalumeGame/com.tff.core.git
+[submodule "Packages/com.tff.core.design-patterns"]
+	path = Packages/com.tff.core.design-patterns
+	url = https://github.com/VagalumeGame/com.tff.core.design-patterns.git
