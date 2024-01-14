@@ -1,0 +1,32 @@
+using System;
+using TFF.Core.DesignPatterns.Events.Channels;
+using UnityEngine;
+
+namespace #NAMESPACE#
+{
+	[CreateAssetMenu(fileName = "SO_EvCh_#SCRIPT_NAME#_NEW",
+		menuName = "DEFINE HERE MENU NAME/New #ACTUAL_NAME_SPACES# Event Channel")]
+	public class So#SCRIPT_NAME#EventChannel : ASoEventChannel<Str#SCRIPT_NAME#Data> {}
+
+	public struct Str#SCRIPT_NAME#Data
+	{
+		/*********************/
+		/* Public Attributes */
+		/*********************/
+		// Include here all the elements to be sent through this channel
+		public readonly DataPlaceHolder Data;
+		public readonly Action<ActionPlaceHolder> Callback;
+
+		public Str#SCRIPT_NAME#Data(DataPlaceHolder data)
+		{
+			Data = data;
+			Callback = null;
+		}
+
+		public Str#SCRIPT_NAME#Data(DataPlaceHolder data, Action<ActionPlaceHolder> callback)
+		{
+			Data = data;
+			Callback = callback;
+		}
+	}
+}

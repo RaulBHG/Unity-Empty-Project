@@ -1,0 +1,31 @@
+{
+  "name": "com.tff.core.design-patterns",
+  "version": "0.0.1",
+  "description": "This is part of That Funny Feeling core package. It contains several design patterns such as State Machine, Observer and Pool.",
+  "displayName": "TFF Core Design Patterns",
+  "unity": "2021.3",
+  "author": {
+    "name": "That Funny Feeling",
+    "email": "diegoramrod@gmail.com"
+  },
+  "hideInEditor": "false",
+  "keywords": [
+    "TFF",
+    "That Funny Feeling",
+    "Design Patterns",
+    "State Machine",
+    "Events",
+    "Runtime Set",
+    "Factory",
+    "Pool"
+  ],
+  "license": "See LICENSE.md file",
+  "unityRelease": "1f1",
+  "repository": {
+    "url": "https://github.com/VagalumeGame/DesignPatterns.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "com.tff.core": "0.0.1"
+  }
+}
