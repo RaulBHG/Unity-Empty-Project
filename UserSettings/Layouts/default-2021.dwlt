@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 800
     height: 567
-  m_MinSize: {x: 800, y: 271}
-  m_MaxSize: {x: 4000, y: 4021}
+  m_MinSize: {x: 800, y: 250}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 800, y: 271}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 271
+  controlID: 112
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 41
+  controlID: 36
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,8 +142,8 @@ MonoBehaviour:
     y: 0
     width: 152
     height: 665
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -168,8 +168,8 @@ MonoBehaviour:
     y: 0
     width: 257
     height: 394
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -194,14 +194,14 @@ MonoBehaviour:
     y: 394
     width: 1054
     height: 271
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 22}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 42
+  controlID: 37
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 93
+  controlID: 38
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -350,7 +350,7 @@ MonoBehaviour:
   - {fileID: 21}
   - {fileID: 16}
   m_Selected: 2
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -380,7 +380,6 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-    m_OverlaysVisible: 1
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -409,17 +408,16 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-    m_OverlaysVisible: 1
   m_Spl:
-    ID: 237
-    splitterInitialOffset: 0
+    ID: 120
+    splitterInitialOffset: 249
     currentActiveSplitter: -1
     realSizes:
-    - 227
-    - 76
+    - 178
+    - 125
     relativeSizes:
-    - 0.75
-    - 0.25
+    - 0.5874587
+    - 0.41254127
     minSizes:
     - 32
     - 32
@@ -442,8 +440,8 @@ MonoBehaviour:
       uniqueId: '[Unity-Empty-Project][suite]'
       name: Unity-Empty-Project
       fullName: Unity-Empty-Project
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.3687699
       messages: 
       output: 
       stacktrace: 
@@ -458,8 +456,8 @@ MonoBehaviour:
       uniqueId: '[Tests.dll][suite]'
       name: Tests.dll
       fullName: D:/Users/raulb/Unity/new/Unity-Empty-Project/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2678308
       messages: 
       output: 
       stacktrace: 
@@ -474,8 +472,8 @@ MonoBehaviour:
       uniqueId: Tests.dll/[TFF][suite]
       name: TFF
       fullName: TFF
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2584275
       messages: 
       output: 
       stacktrace: 
@@ -490,8 +488,8 @@ MonoBehaviour:
       uniqueId: Tests.dll/TFF/[Salvatore][suite]
       name: Salvatore
       fullName: TFF.Salvatore
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2555156
       messages: 
       output: 
       stacktrace: 
@@ -506,8 +504,8 @@ MonoBehaviour:
       uniqueId: Tests.dll/TFF/Salvatore/[SaveLoadSystem][suite]
       name: SaveLoadSystem
       fullName: TFF.Salvatore.SaveLoadSystem
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2533187
       messages: 
       output: 
       stacktrace: 
@@ -522,8 +520,8 @@ MonoBehaviour:
       uniqueId: Tests.dll/TFF/Salvatore/SaveLoadSystem/[Tests][suite]
       name: Tests
       fullName: TFF.Salvatore.SaveLoadSystem.Tests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2338489
       messages: 
       output: 
       stacktrace: 
@@ -538,8 +536,8 @@ MonoBehaviour:
       uniqueId: Tests.dll/TFF/Salvatore/SaveLoadSystem/Tests/[Tests][TFF.Salvatore.SaveLoadSystem.Tests.SaveLoadTest][suite]
       name: SaveLoadTest
       fullName: TFF.Salvatore.SaveLoadSystem.Tests.SaveLoadTest
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.224066
       messages: 
       output: 
       stacktrace: 
@@ -554,10 +552,72 @@ MonoBehaviour:
       uniqueId: Tests.dll/TFF/Salvatore/SaveLoadSystem/Tests/SaveLoadTest/[Tests][TFF.Salvatore.SaveLoadSystem.Tests.SaveLoadTest.SaveLoadTestMain]
       name: SaveLoadTestMain
       fullName: TFF.Salvatore.SaveLoadSystem.Tests.SaveLoadTest.SaveLoadTestMain
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2083089
       messages: 
-      output: 
+      output: 'The referenced script (Unknown) on this Behaviour is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''Directional Light'') is
+        missing!
+
+        The referenced script (Unknown) on this Behaviour is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
+
+        Snapshot
+        Saved.
+
+        Selected slot: 0.
+
+        Creating save file for the first
+        time.
+
+        Selected slot: 1.
+
+        Creating save file for the first
+        time.
+
+        Selected slot: 2.
+
+        Creating save file for the first
+        time.
+
+        Selected slot: 3.
+
+        Creating save file for the first
+        time.
+
+        Selected slot: 0.
+
+        Decrypted result (if the following
+        is not legible, probably there is a problem with de KEY and IV): {"f1c08048-062c-6ddd-142e-7a40b041bf1a":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"1,110483","y":"4,049059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"0,07583427","g":"1","b":"0","a":"1"}}]}
+
+        Selected
+        slot: 1.
+
+        Decrypted result (if the following is not legible, probably
+        there is a problem with de KEY and IV): {"cb00555e-822b-72eb-d550-de644bd1b64b":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-1,949516","y":"4,089058"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0,3354582","b":"0","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}],"904d9530-5f08-aa6e-f581-7917fc5fecb3":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-3,829516","y":"4,049059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0","b":"0,8057232","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"GameSave"}}],"a16cb4ce-d015-515c-aa5a-16a8867c3304":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"3,470484","y":"3,929059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"0,1032343","g":"0","b":"1","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}]}
+
+        Selected
+        slot: 2.
+
+        Decrypted result (if the following is not legible, probably
+        there is a problem with de KEY and IV): {"cb00555e-822b-72eb-d550-de644bd1b64b":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-1,949516","y":"4,089058"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0,3354582","b":"0","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}],"904d9530-5f08-aa6e-f581-7917fc5fecb3":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-3,829516","y":"4,049059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0","b":"0,8057232","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"GameSave"}}],"a16cb4ce-d015-515c-aa5a-16a8867c3304":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"3,470484","y":"3,929059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"0,1032343","g":"0","b":"1","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}]}
+
+        Selected
+        slot: 3.
+
+        Decrypted result (if the following is not legible, probably
+        there is a problem with de KEY and IV): {"cb00555e-822b-72eb-d550-de644bd1b64b":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-1,949516","y":"4,089058"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0,3354582","b":"0","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}],"904d9530-5f08-aa6e-f581-7917fc5fecb3":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-3,829516","y":"4,049059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0","b":"0,8057232","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"GameSave"}}],"a16cb4ce-d015-515c-aa5a-16a8867c3304":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"3,470484","y":"3,929059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"0,1032343","g":"0","b":"1","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}]}
+
+        Unloading
+        the last loaded scene Packages/com.tff.salvatore/Tests/Runtime/_Main/Scenes/SaveLoadTestScene1.unity(build
+        index: 0), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene()
+        to switch to another scene.
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -567,13 +627,78 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/TFF/Salvatore/SaveLoadSystem/Tests/[Tests][TFF.Salvatore.SaveLoadSystem.Tests.SaveLoadTest][suite]
-    m_ResultText: 
+    m_ResultText: 'SaveLoadTestMain (0,208s)
+
+      ---
+
+      The referenced script
+      (Unknown) on this Behaviour is missing!
+
+      The referenced script on this
+      Behaviour (Game Object ''Directional Light'') is missing!
+
+      The referenced
+      script (Unknown) on this Behaviour is missing!
+
+      The referenced script
+      on this Behaviour (Game Object ''Main Camera'') is missing!
+
+      Snapshot
+      Saved.
+
+      Selected slot: 0.
+
+      Creating save file for the first time.
+
+      Selected
+      slot: 1.
+
+      Creating save file for the first time.
+
+      Selected slot:
+      2.
+
+      Creating save file for the first time.
+
+      Selected slot: 3.
+
+      Creating
+      save file for the first time.
+
+      Selected slot: 0.
+
+      Decrypted result
+      (if the following is not legible, probably there is a problem with de KEY and
+      IV): {"f1c08048-062c-6ddd-142e-7a40b041bf1a":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"1,110483","y":"4,049059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"0,07583427","g":"1","b":"0","a":"1"}}]}
+
+      Selected
+      slot: 1.
+
+      Decrypted result (if the following is not legible, probably
+      there is a problem with de KEY and IV): {"cb00555e-822b-72eb-d550-de644bd1b64b":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-1,949516","y":"4,089058"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0,3354582","b":"0","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}],"904d9530-5f08-aa6e-f581-7917fc5fecb3":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-3,829516","y":"4,049059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0","b":"0,8057232","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"GameSave"}}],"a16cb4ce-d015-515c-aa5a-16a8867c3304":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"3,470484","y":"3,929059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"0,1032343","g":"0","b":"1","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}]}
+
+      Selected
+      slot: 2.
+
+      Decrypted result (if the following is not legible, probably
+      there is a problem with de KEY and IV): {"cb00555e-822b-72eb-d550-de644bd1b64b":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-1,949516","y":"4,089058"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0,3354582","b":"0","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}],"904d9530-5f08-aa6e-f581-7917fc5fecb3":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-3,829516","y":"4,049059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0","b":"0,8057232","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"GameSave"}}],"a16cb4ce-d015-515c-aa5a-16a8867c3304":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"3,470484","y":"3,929059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"0,1032343","g":"0","b":"1","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}]}
+
+      Selected
+      slot: 3.
+
+      Decrypted result (if the following is not legible, probably
+      there is a problem with de KEY and IV): {"cb00555e-822b-72eb-d550-de644bd1b64b":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-1,949516","y":"4,089058"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0,3354582","b":"0","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}],"904d9530-5f08-aa6e-f581-7917fc5fecb3":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"-3,829516","y":"4,049059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"1","g":"0","b":"0,8057232","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"GameSave"}}],"a16cb4ce-d015-515c-aa5a-16a8867c3304":[{"guid":"21eb6031-3897-e406-291c-3979d4aa242e","data":{"x":"3,470484","y":"3,929059"}},{"guid":"1beb5fcb-1473-7763-25a2-e73bdc9f7295","data":{"r":"0,1032343","g":"0","b":"1","a":"1"}},{"guid":"10eab942-8e01-71d4-aae5-d1a1d68b6e19","data":{"saveType":"SceneSave"}}]}
+
+      Unloading
+      the last loaded scene Packages/com.tff.salvatore/Tests/Runtime/_Main/Scenes/SaveLoadTestScene1.unity(build
+      index: 0), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene()
+      to switch to another scene.'
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: e557abf77df089036282252fffffff7f
+      m_SelectedIDs: d696f1c1
+      m_LastClickedID: -1041131818
+      m_ExpandedIDs: 326a9ba3d1b94fc1e557abf77df089036282252fb283595e9b08fd77ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -674,41 +799,41 @@ MonoBehaviour:
     serializedVersion: 2
     x: 706
     y: 727
-    width: 920
+    width: 1053
     height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-    m_OverlaysVisible: 1
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
     m_ReferencingInstanceIDs: 
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Packages/com.tff.salvatore/Tests/Runtime/_Main/Scenes
     m_Globs: []
     m_OriginalText: 
-    m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Packages/com.tff.salvatore/Tests/Runtime/_Main/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Users\raulb\Unity\new\Unity-Empty-Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 28790000
-    m_LastClickedID: 31016
-    m_ExpandedIDs: 00000000287900002a7900002c7900002e790000ffffff7f
+    scrollPos: {x: 0, y: 174}
+    m_SelectedIDs: 827a0000
+    m_LastClickedID: 31362
+    m_ExpandedIDs: 00000000b6780000b8780000ba780000bc7800007a7a0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -736,7 +861,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000287900002a7900002c7900002e790000
+    m_ExpandedIDs: 00000000b6780000b8780000ba780000bc780000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -763,7 +888,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -821,7 +946,6 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-    m_OverlaysVisible: 1
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
@@ -864,13 +988,12 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-    m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 70d6ffff
+      m_ExpandedIDs: d2d0ffff4ed2ffff56d3ffffd4d4ffffaed6ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1143,7 +1266,6 @@ MonoBehaviour:
       id: Scene View/Tilemap Palette Helper
       index: 12
       layout: 4
-    m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
@@ -1207,9 +1329,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 10
+    m_Target: 10.344622
     speed: 2
-    m_Value: 10
+    m_Value: 10.344622
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1255,25 +1377,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 963
+    y: 333
+    width: 795
+    height: 373
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-    m_OverlaysVisible: 1
   m_SerializedViewNames: []
   m_SerializedViewValues: []
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1532, y: 769}
+  m_TargetSize: {x: 795, y: 352}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
+  m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
@@ -1285,10 +1406,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -766
-    m_HBaseRangeMax: 766
-    m_VBaseRangeMin: -384.5
-    m_VBaseRangeMax: 384.5
+    m_HBaseRangeMin: -397.5
+    m_HBaseRangeMax: 397.5
+    m_VBaseRangeMin: -176
+    m_VBaseRangeMax: 176
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1306,23 +1427,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1532
-      height: 769
+      width: 795
+      height: 352
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 384.5}
+    m_Translation: {x: 397.5, y: 176}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -766
-      y: -384.5
-      width: 1532
-      height: 769
+      x: -397.5
+      y: -176
+      width: 795
+      height: 352
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1532, y: 790}
+  m_LastWindowPixelSize: {x: 795, y: 373}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1357,4 +1478,3 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-    m_OverlaysVisible: 1
