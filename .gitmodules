@@ -1,9 +1,9 @@
 [submodule "Packages/com.tff.core"]
 	path = Packages/com.tff.core
-	url = https://github.com/VagalumeGame/com.tff.core.git
+	url = git@github.com:VagalumeGame/com.tff.core.git
 [submodule "Packages/com.tff.core.design-patterns"]
 	path = Packages/com.tff.core.design-patterns
-	url = https://github.com/VagalumeGame/com.tff.core.design-patterns.git
+	url = git@github.com:VagalumeGame/com.tff.core.design-patterns.git
 [submodule "Packages/com.tff.salvatore"]
 	path = Packages/com.tff.salvatore
-	url = https://github.com/VagalumeGame/com.tff.salvatore.git
+	url = git@github.com:VagalumeGame/com.tff.salvatore.git
