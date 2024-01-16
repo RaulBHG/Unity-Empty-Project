@@ -16,3 +16,9 @@
 [submodule "Assets/com.tff.salvatore"]
 	path = Assets/com.tff.salvatore
 	url = https://github.com/VagalumeGame/com.tff.salvatore
+[submodule "com.tff.core"]
+	path = com.tff.core
+	url = git@github.com:VagalumeGame/com.tff.core.git
+[submodule "com.tff.core.design-patterns"]
+	path = com.tff.core.design-patterns
+	url = git@github.com:VagalumeGame/com.tff.core.design-patterns.git
