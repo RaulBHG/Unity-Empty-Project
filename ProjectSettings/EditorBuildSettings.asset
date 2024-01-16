@@ -4,8 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/com.tff.salvatore/Tests/Runtime/_Main/Scenes/SaveLoadTestScene1.unity
-    guid: e83250d6bfcf6e74cb5d13f8b5a7bf59
+  m_Scenes: []
   m_configObjects: {}
