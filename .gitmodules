@@ -1,0 +1,9 @@
+[submodule "Assets/com.tff.core.design-patterns"]
+	path = Assets/com.tff.core.design-patterns
+	url = git@github.com:VagalumeGame/com.tff.core.design-patterns.git
+[submodule "Assets/com.tff.core"]
+	path = Assets/com.tff.core
+	url = git@github.com:VagalumeGame/com.tff.core.git
+[submodule "Assets/com.tff.salvatore"]
+	path = Assets/com.tff.salvatore
+	url = git@github.com:VagalumeGame/com.tff.salvatore.git
