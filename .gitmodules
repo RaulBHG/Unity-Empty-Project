@@ -7,3 +7,9 @@
 [submodule "Assets/com.tff.salvatore"]
 	path = Assets/com.tff.salvatore
 	url = git@github.com:VagalumeGame/com.tff.salvatore.git
+[submodule "Assets/com.tff.core.addressable"]
+	path = Assets/com.tff.core.addressable
+	url = git@github.com:VagalumeGame/com.tff.core.addressable.git
+[submodule "Assets/com.tff.core.events"]
+	path = Assets/com.tff.core.events
+	url = git@github.com:VagalumeGame/com.tff.core.events.git
